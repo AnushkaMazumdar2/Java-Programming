@@ -67,7 +67,7 @@ return max;
 }
 int MultiHouseBuilding(int[] arrays)
 {
-#I have taken multi square buildings
+//I have taken multi square buildings
 int n = arrays.length;
 if (n == 0) 
 return 0;
