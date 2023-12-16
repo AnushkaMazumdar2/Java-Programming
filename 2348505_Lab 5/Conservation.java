@@ -22,6 +22,16 @@ class CityBlockConservation extends RainySeasonConservation
                 sum = sum+(start-blockheights[i]);
             }
         }
+        else if(end==start)
+        {
+            for(int i=1;i<n-1;i++)
+        {
+                if(blockheights[i]<end)
+                {
+                    sum = sum+(end-blockheights[i]);
+                }
+        }
+        }
             else
             {
                 for(int i=1;i<n;i++)
